@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌺🍓 B2S DS22🍓🌺</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+  </head>
+  <body>
+    <h1>🍍🥥 Back to School with DS22! 🥥🍍</h1>
+    <!--buttons for Tableau dashboard-->
+    <div>
+      <button id="exportPDF">Generate PDF🥐</button>
+      <button id="powerpoint">Generate Powerpoint🍇</button>
+    </div>
+    <hr />
+    <div>
+      <h2>Filters</h2>
+      <input type="number" placeholder="Min Value" id="minValue" />
+      <input type="number" placeholder="Max Value" id="maxValue" />
+      <button id="filterButton">Filter!</button>
+    </div>
+    <!-- This is where we're going to put the dashboard -->
+    <div id="vizContainer"></div>
+    <!-- Ensure tableau content is loaded before interacting with it -->
+    <script src="./app.js"></script>
+  </body>
+</html>

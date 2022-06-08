@@ -1,0 +1,17 @@
+body {
+  background-color: azure;
+}
+
+#exportPDF {
+  background-color: rgb(226, 224, 101);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+#powerpoint {
+  background-color: rgb(226, 224, 101);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10%;
+}
